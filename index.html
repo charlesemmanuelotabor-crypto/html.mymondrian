@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> my modrian work</title>
+    </head>
+    <style>
+    .container{
+        background-color: rgb(38, 37, 37);
+        display: grid;
+        grid-template-columns: 50px 200px 200px 180px;
+        grid-template-rows: 15px 100px 200px 50px 80px 80px ;
+        gap: 18px;
+        border: 1px solid rgb(131, 131, 131);
+    }
+    body{
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+    .item{
+        background-color: rgb(139, 178, 212);
+    }
+    .item.white1{
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    .item.red1{
+        background-color: hwb(12 21% 23%);
+        grid-column: span 2;
+    }
+    .item.red2{
+        background-color: hwb(12 21% 23%);
+        grid-column: span 2;
+        grid-row: span 3;
+    }
+    .item.blue1{
+        background-color: rgb(4, 4, 80);
+    }
+    .item.milk1{
+        background-color: rgb(101, 159, 211);
+        grid-row: span 2;
+    }
+    .item.blue2{
+        background-color: rgb(4, 4, 80);
+    }
+    .item.milk2{
+        background-color:rgb(139, 178, 212);
+        grid-row: span 2;
+    }
+    .item.white2{
+        background-color: rgb(101, 159, 211);
+    }
+    .item.milk3{
+        background-color: rgb(139, 178, 212);
+    }
+    .item.white3{
+        background-color: rgb(101, 159, 211);
+        grid-row: span 2;
+    }
+    .item.black1{
+        background-color: black;
+    }
+    .item.yellow1{
+        background-color: rgb(194, 194, 154);
+    }   
+
+    </style>
+
+
+
+    <body>
+        <div class="container">
+            <div class="item white1"></div>
+            <div class="item red1"></div>
+            <div class="item red2"></div>
+            <div class="item blue1"></div>
+            <div class="item milk1"></div>
+            <div class="item blue2"></div>
+            <div class="item milk2"></div>
+            <div class="item white2"></div>
+            <div class="item milk3"></div>
+            <div class="item white3"></div>
+            <div class="item black1"></div>
+            <div class="item yellow1"></div>
+
+        </div>
+    </body>
+
+</html>
